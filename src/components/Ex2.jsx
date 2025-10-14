@@ -7,6 +7,7 @@ export default function Ex2() {
       
       <div>
         <h1 className="text-2xl font-bold mb-4">Ex2 - Flexbox Básico</h1>
+        <div className="flex "></div>
       </div>
     
    

@@ -6,18 +6,12 @@ export default function Ex3() {
   return (
      <section>
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-        <div className="bg-white p-6 rounded shadow hover:scale-105 transition-transform">
-          <h3 className="text-[clamp(1rem,2vw,1.5rem)] font-semibold mb-2">Card 1</h3>
-          <p className="text-gray-600">Descrição breve do card.</p>
-          <button className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Saiba mais</button>
-        </div>
-        <div className="bg-white p-6 rounded shadow hover:scale-105 transition-transform">
-          <h3 className="text-[clamp(1rem,2vw,1.5rem)] font-semibold mb-2">Card 2</h3>
-          <p className="text-gray-600">Descrição breve do card.</p>
-          <button className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Saiba mais</button>
-        </div>
-      </div>
+    <button class="w-full rounded-md bg-gray-500 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2" type="button">
+  linha 1
+</button>
+    <button class="w-full rounded-md bg-gray-500 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2" type="button">
+  linha 2 
+</button>
     </section>
   );
 }
