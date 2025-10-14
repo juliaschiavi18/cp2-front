@@ -6,12 +6,7 @@ export default function Ex1() {
   return (
     <div className="my-8">
         <h1 className="text-2xl font-bold mb-4">Ex1 - Botão Estilizado</h1>
-        <button class="rounded-md bg-blue-600 py-2 px-4 border border-transparent 
-        text-center text-sm text-white transition-all shadow-md 
-        hover:shadow-lg focus:bg-blue-700 focus:shadow-none
-         active:bg-blue-700 hover:bg-blue-700 active:shadow-none 
-         disabled:pointer-events-none  " 
-         type="button">Botao</button>
+        <button className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">botao</button>
     </div>
   );
 }

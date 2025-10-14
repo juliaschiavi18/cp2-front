@@ -4,9 +4,20 @@
 
 export default function Ex3() {
   return (
-    <div className="my-8">
-        <h1 className="text-2xl font-bold mb-4">Ex3 - Grid Simples</h1>
-      {/* Resolva aqui */}
-    </div>
+     <section>
+      <h2 className="text-2xl font-bold mb-6 text-center">Ex2 — Grid de Cards</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="bg-white p-6 rounded shadow hover:scale-105 transition-transform">
+          <h3 className="text-[clamp(1rem,2vw,1.5rem)] font-semibold mb-2">Card 1</h3>
+          <p className="text-gray-600">Descrição breve do card.</p>
+          <button className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Saiba mais</button>
+        </div>
+        <div className="bg-white p-6 rounded shadow hover:scale-105 transition-transform">
+          <h3 className="text-[clamp(1rem,2vw,1.5rem)] font-semibold mb-2">Card 2</h3>
+          <p className="text-gray-600">Descrição breve do card.</p>
+          <button className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Saiba mais</button>
+        </div>
+      </div>
+    </section>
   );
 }
