@@ -5,7 +5,7 @@
 export default function Ex3() {
   return (
      <section>
-      <h2 className="text-2xl font-bold mb-6 text-center">Ex2 — Grid de Cards</h2>
+      
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         <div className="bg-white p-6 rounded shadow hover:scale-105 transition-transform">
           <h3 className="text-[clamp(1rem,2vw,1.5rem)] font-semibold mb-2">Card 1</h3>
