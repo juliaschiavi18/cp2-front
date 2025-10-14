@@ -16,7 +16,7 @@ export default function Ex5() {
           <li className="relative after:content-[''] after:block after:h-[2px] after:bg-blue-400 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
             <a href="#">Home</a>
           </li>
-          <li>
+          <li className="relative after:content-[''] after:block after:h-[2px] after:bg-blue-400 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
             <a href="#" className="animate-blink-link">Promoções</a>
           </li>
           <li className="relative after:content-[''] after:block after:h-[2px] after:bg-blue-400 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">
